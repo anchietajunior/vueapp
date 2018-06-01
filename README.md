@@ -25,3 +25,15 @@ rails webpacker:install
 ``
 <%= javascript_pack_tag 'application' %>
 ``
+
+## Install Vue:
+
+``
+rails webpacker:install:vue
+``
+
+## Update javascript_pack_tag to javascript/packs/hello_vue.js:
+
+``
+<%= javascript_pack_tag 'hello_vue' %>
+``
