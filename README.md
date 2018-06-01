@@ -19,3 +19,9 @@ gem 'webpacker'
 ``
 rails webpacker:install
 ``
+
+## Put the new application javascript file inside the application.html.erb (or any other):
+
+``
+<%= javascript_pack_tag 'application' %>
+``
